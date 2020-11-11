@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-    --cell-size: 100px;
+    --cell-size: 120px;
     --mark-size: calc(var(--cell-size)*.9);
 }
 
@@ -56,7 +56,7 @@ body {
 
 .cell:last-child,
 .cell:nth-child(8),
-.cell:nth-child(9) {
+.cell:nth-child(7) {
     border-bottom: none;
 }
 
